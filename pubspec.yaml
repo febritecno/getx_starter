@@ -1,0 +1,118 @@
+#! flutter --version
+#Flutter 1.22.5 • channel stable • https://github.com/flutter/flutter.git
+#Framework • revision 7891006299 (4 months ago) • 2020-12-10 11:54:40 -0800
+#Engine • revision ae90085a84
+#Tools • Dart 2.10.4
+
+name: apple_music_searchly
+description: Search Apple Music Very Easy.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # CORE ===================
+  get: ^3.25.6
+  shared_preferences: 0.5.12
+  device_preview: ^0.5.5
+  flutter_keyboard_aware_dialog: ^1.0.1
+  sizer: ^1.1.8
+  # UI ===================
+
+  # ======= icons ==========
+  unicons: ^1.0.1
+  cupertino_icons: ^1.0.0
+  # UTILS ===================
+  optimized_cached_image: ^1.0.0
+  connectivity: ^2.0.2
+  loading_skeleton: 1.0.2
+  # SERVICES ===================
+  dio: ^3.0.10
+  pretty_dio_logger: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  flutter_native_splash:
+  flutter_rename_app:
+  flutter_gen: any
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/app_images/
+
+  fonts:
+      - family: Inter
+        fonts:
+          - asset: assets/fonts/Inter-Thin.ttf
+            weight: 100
+          - asset: assets/fonts/Inter-Light.ttf
+            weight: 300
+          - asset: assets/fonts/Inter-Regular.ttf
+          - asset: assets/fonts/Inter-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/Inter-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/Inter-Black.ttf
+            weight: 900
+
+#=========================================
+# SET UP ASSETS-GENERATOR, ICON, SPLASH SCREEN AND APP INFO ============
+#=========================================
+
+# ========================================================================
+# exec command ' flutter pub run flutter_native_splash:create ' in your the terminal
+flutter_native_splash:
+  image: assets/images/app_images/launcher_splash.png
+  color: "ffffff"
+  ios: false
+  android_disable_fullscreen: true
+
+# ========================================================================
+# exec command ' flutter pub run flutter_launcher_icons:main ' in your the terminal
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_images/launcher_icon.png"
+
+# ========================================================================
+# exec command ' flutter pub run flutter_rename_app ' in your the terminal
+
+flutter_rename_app:
+  application_name: Apple Music Searchly
+  dart_package_name: apple_music_searchly
+  application_id: com.apple_music.searchly
+  # IOS APP ID
+  bundle_id: com.apple_music.searchly
+  # ANDROID APP ID
+  android_package_name: com.apple_music.searchly
+
+# ========================================================================
+  # asset generator install exec -> dart pub global activate flutter_gen
+  # exec command ' fluttergen -c pubspec.yaml ' in your the terminal
+
+flutter_gen:
+  output: lib/config/constants/ # Optional (default: lib/gen/)
+  lineLength: 80 # Optional (default: 80)
+  # Optional
+  integrations:
+    flutter_svg: false
+    flare_flutter: false
+
+  #========================================
