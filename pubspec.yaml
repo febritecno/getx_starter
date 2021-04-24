@@ -18,22 +18,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # CORE ===================
+  #!! CORE ===================
   get: ^3.25.6
   shared_preferences: 0.5.12
   device_preview: ^0.5.5
   flutter_keyboard_aware_dialog: ^1.0.1
   sizer: ^1.1.8
-  # UI ===================
+  #!! UI ===================
 
   # ======= icons ==========
   unicons: ^1.0.1
   cupertino_icons: ^1.0.0
-  # UTILS ===================
+  #!! UTILS ===================
   optimized_cached_image: ^1.0.0
   connectivity: ^2.0.2
   loading_skeleton: 1.0.2
-  # SERVICES ===================
+  #!! SERVICES ===================
   dio: ^3.0.10
   pretty_dio_logger: ^1.1.1
 
@@ -72,9 +72,9 @@ flutter:
           - asset: assets/fonts/Inter-Black.ttf
             weight: 900
 
-#=========================================
+#=======================================================================
 # SET UP ASSETS-GENERATOR, ICON, SPLASH SCREEN AND APP INFO ============
-#=========================================
+#=======================================================================
 
 # ========================================================================
 # exec command ' flutter pub run flutter_native_splash:create ' in your the terminal
@@ -104,7 +104,7 @@ flutter_rename_app:
   android_package_name: com.apple_music.searchly
 
 # ========================================================================
-  # asset generator install exec -> dart pub global activate flutter_gen
+  # how to install asset generator exec -> dart pub global activate flutter_gen
   # exec command ' fluttergen -c pubspec.yaml ' in your the terminal
 
 flutter_gen:

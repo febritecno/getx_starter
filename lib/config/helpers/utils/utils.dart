@@ -3,53 +3,12 @@
 
 import 'dart:async';
 import 'dart:developer' as dev;
-import 'dart:math';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 /// Mixin [Utils] provides basic operations and utilities
 mixin Utils {
-  /// [EdgeInsets] with custom [left], [right], [top] & [bottom] values
-  static EdgeInsets mLTRB(
-    double left,
-    double top,
-    double right,
-    double bottom,
-  ) =>
-      EdgeInsets.fromLTRB(left, top, right, bottom);
-
-  /// [EdgeInsets] with custom symmetric [v] for vertical and [h] for horizontal value
-  static EdgeInsets mSymmetric({double v = 0.0, double h = 0.0}) =>
-      EdgeInsets.symmetric(
-        vertical: v,
-        horizontal: h,
-      );
-
-  /// [EdgeInsets] with custom [left], [right], [top] & [bottom] values
-  static EdgeInsets mOnly(
-          {double left = 0.0,
-          double right = 0.0,
-          double top = 0.0,
-          double bottom = 0.0}) =>
-      EdgeInsets.only(left: left, right: right, top: top, bottom: bottom);
-
-  /// [ShapeBorder] with border radius 7.5
-  static ShapeBorder roundedSm =
-      RoundedRectangleBorder(borderRadius: BorderRadius.circular(7.5));
-
-  /// [ShapeBorder] with border radius 15
-  static ShapeBorder rounded =
-      RoundedRectangleBorder(borderRadius: BorderRadius.circular(15));
-
-  /// [ShapeBorder] with border radius 30
-  static ShapeBorder roundedLg =
-      RoundedRectangleBorder(borderRadius: BorderRadius.circular(30));
-
-  /// [ShapeBorder] with custom border [radius]
-  static ShapeBorder withRounded(double radius) =>
-      RoundedRectangleBorder(borderRadius: BorderRadius.circular(radius));
-
   // Emit a log event.
   ///
   /// This function was designed to map closely to the logging information
@@ -115,16 +74,4 @@ mixin Utils {
     }
     return int.parse(hexColor, radix: 16);
   }
-
-  /// Get Random Non-Primary Color
-  static Color get randomOpaqueColor =>
-      Color(Random().nextInt(0xffffffff)).withAlpha(0xff);
-
-  /// Get Random Primary Color
-  static Color get randomPrimaryColor =>
-      Colors.primaries[Random().nextInt(Colors.primaries.length)];
-
-  /// Get Random Non-Primary Color
-  static Color get randomColor => Color.fromARGB(
-      100, Random().nextInt(255), Random().nextInt(255), Random().nextInt(255));
 }

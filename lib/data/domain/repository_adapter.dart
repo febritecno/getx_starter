@@ -1,3 +1,3 @@
-//*** Interface Service Each Repository -------------------
+//*** Interface Services Repository ---------------
 
 abstract class IHomeRepository {}
