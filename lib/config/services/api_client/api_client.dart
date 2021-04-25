@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:apple_music_searchly/config/constants/constants.dart';
+import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 import 'api_errors/api_error_message_error.dart';
 import 'api_errors/bad_network_api_error.dart';
@@ -14,6 +15,15 @@ class ApiClient {
     dio.options.baseUrl = BASE_API_URL;
     dio.options.connectTimeout = const Duration(minutes: 3).inMilliseconds;
     dio.options.receiveTimeout = const Duration(minutes: 3).inMilliseconds;
+
+    dio.interceptors.add(PrettyDioLogger(
+      requestHeader: false,
+      requestBody: false,
+      responseHeader: false,
+      responseBody: true,
+      error: true,
+      compact: true,
+    ));
   }
 
   Future<Response> post(

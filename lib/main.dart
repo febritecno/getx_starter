@@ -7,9 +7,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer_util.dart';
-import 'config/constants/base_colors.dart';
 import 'config/constants/constants.dart';
+import 'config/helpers/utils/logger_utils.dart';
 import 'config/services/services.dart';
+import 'config/translations/translation_service.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -32,18 +33,16 @@ class MyApp extends StatelessWidget {
     ]);
 
     return LayoutBuilder(
-      //return LayoutBuilder
       builder: (context, constraints) {
         return OrientationBuilder(
-          //return OrientationBuilder
           builder: (context, orientation) {
-            //initialize SizerUtil()
             SizerUtil().init(constraints, orientation); //initialize SizerUtil
             return GetMaterialApp(
               //***  uncomment DevicePreview.appBuilder builder for enable device preview [testing] ---------
               // builder: DevicePreview.appBuilder,
               debugShowCheckedModeBanner: false,
-              enableLog: false,
+              enableLog: true,
+              logWriterCallback: Logger.write,
               title: APP_NAME,
               unknownRoute: GetPage(
                   name: Routes.NOTFOUND, page: () => UnknownRouteScreen()),
@@ -51,8 +50,11 @@ class MyApp extends StatelessWidget {
               getPages: AppPages.routes,
               // THEME LOADER -------------------
               theme: ThemeData(
-                  primaryColor: BaseColors.greenColor,
-                  accentColor: BaseColors.greenColor),
+                  primaryColor: Colors.blue, accentColor: Colors.blueAccent),
+              // LOCALIZATION MULTILANGUAGE LOADER (l10n)-------------
+              locale: TranslationService.locale,
+              fallbackLocale: TranslationService.fallbackLocale,
+              translations: TranslationService(),
             );
           },
         );

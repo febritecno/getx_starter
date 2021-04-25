@@ -9,9 +9,10 @@ class BackroundApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-        color: bgColor,
-        child: Column(
+    return Scaffold(
+        resizeToAvoidBottomInset: false,
+        backgroundColor: bgColor,
+        body: Column(
           children: children,
         ));
   }
