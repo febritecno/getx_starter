@@ -10,7 +10,7 @@
 // import 'package:lets_goto_solo/controllers/main_controllers/sarana_controller.dart';
 // import 'package:lets_goto_solo/controllers/main_controllers/topten_controller.dart';
 // import 'package:lets_goto_solo/controllers/main_controllers/transportasi_controller.dart';
-// import 'package:lets_goto_solo/data/domain/repository_adapter.dart';
+// import 'package:lets_goto_solo/data/domain/base_repository_adapter.dart';
 // import 'package:lets_goto_solo/data/network/base_api_services/destinasi_repository.dart';
 // import 'package:lets_goto_solo/data/network/base_api_services/ekraf_repository.dart';
 // import 'package:lets_goto_solo/data/network/base_api_services/event_repository.dart';

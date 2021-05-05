@@ -1,14 +1,10 @@
-//** Author Utils : https://github.com/iampawan/VelocityX/blob/stable/lib/src/velocity_xx.dart
-// ** Keep check repository to sync
-
 import 'dart:async';
 import 'dart:developer' as dev;
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-/// Mixin [Utils] provides basic operations and utilities
-mixin Utils {
+class Utils {
   // Emit a log event.
   ///
   /// This function was designed to map closely to the logging information

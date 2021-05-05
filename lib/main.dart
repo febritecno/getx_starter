@@ -7,10 +7,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer_util.dart';
-import 'config/constants/constants.dart';
+import 'config/constants/app_constants.dart';
 import 'config/helpers/utils/logger_utils.dart';
-import 'config/services/services.dart';
-import 'config/translations/translation_service.dart';
+import 'config/services/app_services.dart';
+import 'config/translations/app_translations.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -52,9 +52,9 @@ class MyApp extends StatelessWidget {
               theme: ThemeData(
                   primaryColor: Colors.blue, accentColor: Colors.blueAccent),
               // LOCALIZATION MULTILANGUAGE LOADER (l10n)-------------
-              locale: TranslationService.locale,
-              fallbackLocale: TranslationService.fallbackLocale,
-              translations: TranslationService(),
+              locale: AppTranslations.locale,
+              fallbackLocale: AppTranslations.fallbackLocale,
+              translations: AppTranslations(),
             );
           },
         );

@@ -2,7 +2,7 @@
 // import 'package:interactive_maps_marker/interactive_maps_marker.dart';
 // import 'package:lets_goto_solo/config/helpers/utils/connection_utils.dart';
 // import 'package:lets_goto_solo/data/domain/models/peta_model.dart';
-// import 'package:lets_goto_solo/data/domain/repository_adapter.dart';
+// import 'package:lets_goto_solo/data/domain/base_repository_adapter.dart';
 //
 // class PetaController extends GetxController {
 //   PetaController({this.petaRepository});

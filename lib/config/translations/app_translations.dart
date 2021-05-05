@@ -1,10 +1,10 @@
-import 'package:apple_music_searchly/config/constants/constants.dart';
+import 'package:apple_music_searchly/config/constants/app_constants.dart';
 import 'package:get/get.dart';
 
 import 'en_US.dart';
 import 'id_ID.dart';
 
-class TranslationService extends Translations {
+class AppTranslations extends Translations {
   // translations will be displayed in that locale
   // get dynamic localization change from locale phone use -> Get.deviceLocale
   // default set language app

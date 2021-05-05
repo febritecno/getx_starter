@@ -3,9 +3,9 @@
 // import 'package:lets_goto_solo/config/helpers/utils/connection_utils.dart';
 // import 'package:lets_goto_solo/config/services/api_client/api_client.dart';
 // import 'package:lets_goto_solo/data/domain/models/event_model.dart';
-// import 'package:lets_goto_solo/data/domain/repository_adapter.dart';
-// import 'package:lets_goto_solo/data/domain/shared_models.dart';
-// import 'package:lets_goto_solo/data/network/api_routes.dart';
+// import 'package:lets_goto_solo/data/domain/base_repository_adapter.dart';
+// import 'package:lets_goto_solo/data/domain/base_shared_models.dart';
+// import 'package:lets_goto_solo/data/network/base_api_routes.dart';
 //
 // import '../../prefs_key.dart';
 //

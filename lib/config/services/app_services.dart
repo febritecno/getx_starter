@@ -8,7 +8,6 @@ void initServices() async {
   await Get.putAsync(() => PrefsService().init());
 }
 
-//*** Write Services SharedPreferences -------------------
 class PrefsService extends GetxService {
   Future<PrefsService> init() async {
     // initialization SharedPreferences [data -> prefs_key]

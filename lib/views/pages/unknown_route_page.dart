@@ -1,4 +1,4 @@
-import 'package:apple_music_searchly/views/widgets/system_components/not_found_app.dart';
+import 'package:apple_music_searchly/views/widgets/base_components/not_found_app.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

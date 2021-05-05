@@ -1,4 +1,4 @@
-import 'package:apple_music_searchly/config/helpers/utils/utils.dart';
+import 'package:apple_music_searchly/config/helpers/utils/common_utils.dart';
 
 abstract class BaseColors {
   // -------- List Colors Pallete --------------------

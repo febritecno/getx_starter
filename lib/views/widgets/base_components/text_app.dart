@@ -1,4 +1,4 @@
-import 'package:apple_music_searchly/config/constants/constants.dart';
+import 'package:apple_music_searchly/config/constants/app_constants.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

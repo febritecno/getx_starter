@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:apple_music_searchly/config/constants/constants.dart';
+import 'package:apple_music_searchly/config/constants/app_constants.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 
 import 'api_errors/api_error_message_error.dart';

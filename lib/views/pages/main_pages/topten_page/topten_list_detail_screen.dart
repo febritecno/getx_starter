@@ -1,7 +1,7 @@
 // import 'package:expandable/expandable.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/constants/constants.dart';
+// import 'package:lets_goto_solo/config/constants/app_constants.dart';
 // import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
 // import 'package:lets_goto_solo/controllers/main_controllers/topten_controller.dart';
 // import 'package:lets_goto_solo/views/widgets/atomic/atoms/loading_atom.dart';

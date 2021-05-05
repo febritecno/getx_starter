@@ -1,8 +1,8 @@
 // import 'package:flutter/cupertino.dart';
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/constants/base_colors.dart';
-// import 'package:lets_goto_solo/config/constants/constants.dart';
+// import 'package:lets_goto_solo/config/constants/app_colors.dart';
+// import 'package:lets_goto_solo/config/constants/app_constants.dart';
 // import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
 // import 'package:lets_goto_solo/views/widgets/atomic/atoms/back_btn_atom.dart';
 // import 'package:lets_goto_solo/views/widgets/atomic/atoms/container_ornamen_atom.dart';

@@ -1,7 +1,6 @@
+import 'package:apple_music_searchly/views/widgets/atomic/atoms/backround_app.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'backround_app.dart';
 
 class SafeAreaApp extends StatelessWidget {
   final Widget safeAreaWidget;

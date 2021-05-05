@@ -73,6 +73,8 @@ flutter:
           - asset: assets/fonts/Inter-Black.ttf
             weight: 900
 
+
+
 #=======================================================================
 # SET UP ASSETS-GENERATOR, ICON, SPLASH SCREEN AND APP INFO ============
 #=======================================================================

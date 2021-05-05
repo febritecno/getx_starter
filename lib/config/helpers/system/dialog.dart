@@ -1,4 +1,4 @@
-import 'package:apple_music_searchly/views/widgets/system_components/text_app.dart';
+import 'package:apple_music_searchly/views/widgets/base_components/text_app.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_keyboard_aware_dialog/flutter_keyboard_aware_dialog.dart';
