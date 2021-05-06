@@ -1,8 +1,3 @@
-// import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/helpers/utils/connection_utils.dart';
-// import 'package:lets_goto_solo/data/domain/base_repository_adapter.dart';
-// import 'package:lets_goto_solo/data/domain/base_shared_models.dart';
-//
 // class DestinasiController extends GetxController {
 //   DestinasiController({this.destinasiRepository});
 //

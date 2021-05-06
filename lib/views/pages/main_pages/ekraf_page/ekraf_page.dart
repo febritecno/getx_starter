@@ -1,18 +1,3 @@
-// import 'package:carousel_slider/carousel_slider.dart';
-// import 'package:flutter/cupertino.dart';
-// import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
-// import 'package:lets_goto_solo/controllers/main_controllers/ekraf_controller.dart';
-// import 'package:lets_goto_solo/routes/app_routes.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/atoms/card_carousel_slider_atom.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/atoms/loading_atom.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/detail_screen_molecules/Icon_detail_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/organisms/list_item_display_org.dart';
-// import 'package:lets_goto_solo/views/widgets/templates/not_found_app.dart';
-// import 'package:smooth_star_rating/smooth_star_rating.dart';
-// import 'package:unicons/unicons.dart';
-//
 // class EkrafPage extends GetView<EkrafController> {
 //   Widget build(BuildContext context) {
 //     return RelativeBuilder(

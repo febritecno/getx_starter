@@ -1,16 +1,3 @@
-// import 'package:flutter/cupertino.dart';
-// import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
-// import 'package:lets_goto_solo/controllers/main_controllers/peta_controller.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/detail_screen_molecules/Icon_detail_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/detail_screen_molecules/desc_container_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/detail_screen_molecules/title_subtitle_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/organisms/detail_post_display_org.dart';
-// import 'package:lets_goto_solo/views/widgets/templates/vertical_scrollable_app.dart';
-// import 'package:map_launcher/map_launcher.dart';
-// import 'package:unicons/unicons.dart';
-//
 // class PetaDetailScreen extends GetView<PetaDetailController> {
 //   @override
 //   Widget build(BuildContext context) {

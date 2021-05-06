@@ -1,11 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/constants/app_constants.dart';
-// import 'package:lets_goto_solo/controllers/main_controllers/topten_controller.dart';
-// import 'package:lets_goto_solo/routes/app_routes.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/submenu_vertical_card_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/organisms/list_item_display_org.dart';
-//
 // class TopTenListScreen extends GetView<TopTenListController> {
 //   TopTenListScreen({Key key}) : super(key: key);
 //

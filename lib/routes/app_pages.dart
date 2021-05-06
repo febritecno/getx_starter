@@ -5,7 +5,7 @@ import 'package:get/get_navigation/src/routes/default_route.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
 import 'app_routes.dart';
-import 'bindings/bindings.dart';
+import 'bindings/app_bindings.dart';
 
 class AppPages {
   static const INITIAL = Routes.HOME;

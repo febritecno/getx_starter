@@ -5,7 +5,7 @@
 // import 'package:lets_goto_solo/data/domain/base_repository_adapter.dart';
 // import 'package:lets_goto_solo/data/network/base_api_routes.dart';
 //
-// import '../../prefs_key.dart';
+// import '../../app_key.dart';
 //
 // class PetaRepository implements IPetaRepository {
 //   PetaRepository({this.apiClient});

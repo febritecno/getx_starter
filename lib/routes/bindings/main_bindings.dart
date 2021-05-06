@@ -1,3 +1,5 @@
+part of 'app_bindings.dart';
+
 // import 'package:dio/dio.dart';
 // import 'package:get/get.dart';
 // import 'package:lets_goto_solo/config/services/api_client/api_client.dart';

@@ -1,18 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
-// import 'package:google_maps_flutter/google_maps_flutter.dart';
-// import 'package:interactive_maps_marker/interactive_maps_marker.dart';
-// import 'package:lets_goto_solo/config/constants/app_constants.dart';
-// import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
-// import 'package:lets_goto_solo/controllers/main_controllers/peta_controller.dart';
-// import 'package:lets_goto_solo/routes/app_routes.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/atoms/card_container_atom.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/atoms/loading_atom.dart';
-// import 'package:lets_goto_solo/views/widgets/templates/text_app.dart';
-// import 'package:lets_goto_solo/views/widgets/templates/vertical_scrollable_app.dart';
-// import 'package:optimized_cached_image/optimized_cached_image.dart';
-// import 'package:smooth_star_rating/smooth_star_rating.dart';
-//
 // class PetaPage extends GetView<PetaController> {
 //   PetaPage({Key key}) : super(key: key);
 //

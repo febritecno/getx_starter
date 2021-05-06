@@ -1,14 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:get/get.dart';
-// import 'package:lets_goto_solo/config/constants/app_constants.dart';
-// import 'package:lets_goto_solo/config/helpers/third_party/relative_scale.dart';
-// import 'package:lets_goto_solo/controllers/main_controllers/topten_controller.dart';
-// import 'package:lets_goto_solo/routes/app_routes.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/atoms/loading_atom.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/molecules/submenu_vertical_card_mol.dart';
-// import 'package:lets_goto_solo/views/widgets/atomic/organisms/list_item_display_org.dart';
-// import 'package:lets_goto_solo/views/widgets/templates/not_found_app.dart';
-//
 // class ToptenPage extends GetView<TopTenController> {
 //   ToptenPage({Key key}) : super(key: key);
 //
